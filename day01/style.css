@@ -10,6 +10,11 @@ body {
   height: 100vh;
   background-color: #dddddd;
 }
+
+#button.stop-color { 
+  background-color: tomato; 
+}
+
 .stopwatch {
   /*display: inline-block;*/
   padding: 48px 32px 72px;
@@ -19,12 +24,12 @@ body {
   box-shadow: 4px 14px 0px rgba(0, 0, 0, 0.25);
 }
 .stopwatch h1 {
-    font-size: 0.4em;
   display: block;
-  margin-bottom: 16px;
   font-family: "Noto Sans KR", sans-serif;
+    font-size: 0.4em;
   text-transform: uppercase;
   color: gray;
+  margin-bottom: 16px;
 }
 .stopwatch_interface {
     display: flex;
@@ -33,15 +38,16 @@ body {
     
 }
 #screen {
-    background-color: black;
-    color: #fff;
-    font-family: "Press Start 2P", system-ui;;
     padding: 8px 10px;
+    font-family: "Press Start 2P", system-ui;
+    color: #fff;
+    background-color: black;
     border-radius: 2px;
 }
 #button {
-    background-color: rgb(50,50,199);
-    color: #fff;
     padding: 5px 10px;
+    color: #fff;
+    background-color: steelblue;
     border-radius: 2px;
+    
 }
