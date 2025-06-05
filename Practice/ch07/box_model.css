@@ -1,0 +1,7 @@
+span { background-color: slateblue; width: 200px;}
+.container {background-color: #fff;}
+.container div { background-color: coral; display: inline; }
+.container :first-child { color: red;}
+.container :nth-child(2) { color: blue; }
+/* .container div:first-of-type { color: blue; }  */
+.inline_block { display: inline-block; width: 200px; height: 20px;}
