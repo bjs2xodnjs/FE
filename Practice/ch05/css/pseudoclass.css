@@ -5,7 +5,8 @@
 
 .starter ~ li { font-style: italic; }
 /* 첫 번째, 마지막 요소 가상 클래스 */
-ol :first-child, ol :last-child { color: yellowgreen; }
+ol :first-child, 
+    ol :last-child { color: yellowgreen; }
 /* not 가상 선택자 */
 .outer > :not(:last-child) { background-color: antiquewhite; }
 
@@ -17,3 +18,5 @@ ol :nth-child(3) { font-weight: bold; color: deeppink;}
 
 ol :nth-child(even) { background-color: beige;} /* 짝수 */ /* 3n */ /* 2n + 1 */ 
 ol :nth-child(odd) { background-color: cadetblue;} /* 홀수 */
+
+/* ol :nth-child */

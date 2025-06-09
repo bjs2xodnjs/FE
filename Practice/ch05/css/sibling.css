@@ -1,3 +1,6 @@
 h1 + p { background-color: #222; color: #fff;} /*인접 형제 선택자 */
 
 h1 ~ p { color: blue;} /* 형제 선택자(sibling selector) */
+/* h1 밑에 있는 p 선택 단, secton 밑에 p는 선택이 안된다. */
+
+.color-blue { color: blue; }

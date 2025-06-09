@@ -4,8 +4,8 @@ span { color: pink;}
 div { color: olivedrab; }
 #red { color: red;}
 div.blue { color: brown; }
-div.blue.dark { color: green ;}
-div.dark { color: gray ; }
+div .blue .dark { color: green ;}  /* and 조건*/
+.blue.dark { color: gray ; }
 .blue { color: slateblue; }
 
 span, .dark, #red { text-decoration: underline;}
